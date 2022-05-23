@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js",
-    "dev": "nodemo app.js"
+    "dev": "nodemon app.js"
   },
   "keywords": [],
   "author": "Sean R Reid",
@@ -14,5 +14,8 @@
   "dependencies": {
     "express": "^4.17.1",
     "express-es6-template-engine": "^2.2.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
   }
 }
